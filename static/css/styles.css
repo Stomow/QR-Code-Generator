@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(26, 26, 26);
+    margin-top: 20vh;
+    font-family: 'Nunito', 'Open Sans', sans-serif;
+}
+
+#title{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+input{
+    height: 50px;
+    border-radius: 10px;
+    font-size: 25px;
+    width: 400px;
+    text-align: center;
+    font-family: 'Nunito', 'Open Sans', sans-serif;
+}
+
+
+.mainCon{
+    display: flex;
+    padding: 35px;
+    justify-content: center;
+    background-color: rgb(56, 56, 56);
+    width: 800px;
+    border-radius: 20px;
+    margin:auto;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px;
+    border-radius: 20px;
+    font-family: 'Nunito', 'Open Sans', sans-serif;
+}
+
+
+#genBtn{
+    margin-top: 10px;
+    width: 80px;
+    height: 30px;
+    background-color: #8f8f8f;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Nunito', 'Open Sans', sans-serif;
+}
+
+#QR{
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 20%;
+}
